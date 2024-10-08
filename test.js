@@ -9,16 +9,15 @@ axios({
     data: {
         "code": 0,
         "data": {
+            "channelCode": 20,
+            "brandId": 1,
             "page": {
-                "curPage": 1,
+                "pageNo": 1,
                 "pageSize": 15,
-                "totalSize": 0,
-                "totalPage": 0,
-                "firstPage": true,
-                "lastPage": true
+                "totalSize": 1
             },
-            "data": [],
-            "dataSize": 0
+            "couponType": 0,
+            "clearRed": false
         }
     },
     headers: {
