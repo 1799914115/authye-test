@@ -8,5 +8,5 @@ axios({
 }).then(response => {
     console.log(response.data.data);
     
-})
+}).catch(() => {})
 console.log('test');
